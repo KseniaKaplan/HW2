@@ -572,7 +572,7 @@ ul li {
   #start-menu {
     width: 60px;
     height: 60px;
-    background-image: url("/HW2/Img/menuIcon.png");
+    background-image: url("Img/menuIcon.png");
     background-size: cover;
   }
   #mobile-nav .floating-menu {
