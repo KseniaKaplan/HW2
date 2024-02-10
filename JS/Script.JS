@@ -1,20 +1,3 @@
-// Get the current page URL
-const currentPage = window.location.href;
-
-// Get all navbar links
-const navbarLinks = document.querySelectorAll("header nav ul li a");
-
-// Loop through each navbar link
-navbarLinks.forEach((link) => {
-  // If the link's href matches the current page URL
-  if (link.href === currentPage) {
-    // Add a class to highlight the link
-    link.classList.add("active");
-  }
-});
-
-////
-
 //Animation for Homepage - move line
 
 let typingText = document.querySelector(".change_txt");
